@@ -98,7 +98,7 @@ function displayMovieDetails(details){
         <div class="imdbRating">
             <p>IMDb Rating</p>
             <p><span>⭐  ${details.imdbRating}</span>/10</p>
-            <p>${details.imdbVotes / 1000}</p>
+            <p>${details.imdbVotes} votes</p>
         </div>
         <div class="yourRate">
             <p>Your Rating</p>
